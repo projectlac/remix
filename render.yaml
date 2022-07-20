@@ -3,7 +3,7 @@ services:
     env: node
 
     # update this with the name of your project
-    name: remix-render-starter
+    name: remix111
 
     # see service tiers: https://render.com/pricing/#services
     plan: free
@@ -21,7 +21,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: elephant
+          name: testRemix
           property: connectionString
       - key: APP_NAME
         value: remix-render
@@ -41,5 +41,5 @@ services:
         generateValue: true
 
 databases:
-  - name: elephant
+  - name: testRemix
     plan: free
