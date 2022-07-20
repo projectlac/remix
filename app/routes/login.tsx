@@ -60,7 +60,7 @@ export async function action({ request }: ActionArgs) {
 
 export const meta: MetaFunction = () => {
   return {
-    title: "Login",
+    title: "Login - this is meta",
   };
 };
 
